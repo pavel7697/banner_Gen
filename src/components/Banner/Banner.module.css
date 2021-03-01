@@ -1,0 +1,58 @@
+.banner {
+  grid-area: banner;
+  border: 2px solid orange;
+  border-radius: 13px 0px 0px 13px;
+  box-sizing: border-box;
+  width: 300px;
+  height: 400px;
+  width: 100%;
+}
+
+.link {
+  width: 300px; /* Ширина слоя */
+  height: 400px; /* Высота слоя */
+  position: absolute;
+  z-index: 1;
+}
+
+.link a {
+  display: block; /* Ссылка как блочный элемент */
+  text-align: center; /* Выравнивание по центру */
+  height: 100%; /* Высота на весь слой */
+  color: rgba(102, 102, 102, 0); /* Цвет ссылки */
+  z-index: 10000;
+}
+
+.background {
+  width: 300px; /* Ширина слоя */
+  height: 400px; /* Высота слоя */
+  position: relative;
+  overflow: hidden;
+}
+
+.img {
+  position: inherit;
+
+  top: 20px;
+  left: 50px;
+  height: 55%;
+  z-index: 0;
+}
+
+.text {
+  text-align: left;
+  top: 10px;
+  left: 10px;
+  height: 30%;
+  font-size: 22pt;
+  color: white;
+  position: relative;
+}
+
+.textwrapper {
+  width: 90%;
+  height: 40%;
+  margin-left: 20px;
+  position: relative;
+  overflow: hidden;
+}

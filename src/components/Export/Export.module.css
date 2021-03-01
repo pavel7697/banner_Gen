@@ -1,0 +1,8 @@
+.btn {
+  grid-area: export;
+  background-color: orange;
+  border: 2px solid orange;
+  padding: 20px;
+  border-radius: 13px 0px 0px 13px;
+  box-sizing: border-box;
+}
